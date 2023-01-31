@@ -1,82 +1,381 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
-	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
+    <meta charset="UTF-8">
+    <title>FIGMA | Макеты для верстки — Верстка страницы</title>
+    <meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
+    <link rel="stylesheet" type="text/css" href="scripts/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="scripts/slick.css">
+    <link rel="stylesheet" href="styles/css.css">
 </head>
 <body>
-		<!-- Начало: Данный блок удалять нельзя -->
-		<style>
-			.maketforfigma{
-				flex: 0 0 auto;
-				/*background: #303b44;*/
-				/*background: #5CDB95;*/
-				background: #313a46;
-				font-weight: bold;
-				display: flex;
-			}
-			.maketforfigma img{
-				border-radius: 10px;
-				margin: 4px 0 0 4px;
-			}
-			.maketforfigma p {
-				/*color: #fff;*/
-				/*color: #05386B;*/
-				color: #98a6ad;
-				text-decoration: none;
-				letter-spacing: .01875rem;
-				font-size: .775rem;
-				padding: 0 10px;
-				line-height: 0.70rem;
-			}
+<!-- Начало: Данный блок удалять нельзя -->
+<style>
+    .maketforfigma {
+        flex: 0 0 auto;
+        /*background: #303b44;*/
+        /*background: #5CDB95;*/
+        background: #313a46;
+        font-weight: bold;
+        display: flex;
+    }
 
-			.maketforfigma p > a {
-				/*color: #08ff00;*/
-				/*color: #EDF5E1;*/
-				color: #bbe4f0;
-				font-weight: bold;
-			}
-			.maketforfigma p > a:hover {
-				/*color: #ffa001*/
-				/*color: #379683*/
-				color: #ffffff
-			}
+    .maketforfigma img {
+        border-radius: 10px;
+        margin: 4px 0 0 4px;
+    }
 
-			.main{
-				flex: 1 0 auto;
-			}
+    .maketforfigma p {
+        /*color: #fff;*/
+        /*color: #05386B;*/
+        color: #98a6ad;
+        text-decoration: none;
+        letter-spacing: .01875rem;
+        font-size: .775rem;
+        padding: 0 10px;
+        line-height: 0.70rem;
+    }
 
-			html{
-				height: 100%;
-			}
+    .maketforfigma p > a {
+        /*color: #08ff00;*/
+        /*color: #EDF5E1;*/
+        color: #bbe4f0;
+        font-weight: bold;
+    }
 
-			body{
-				display: flex;
-				flex-direction: column;
-				height: 100%;
-				padding: 0;
-				margin: 0;
-			}
-		</style>
-		<div class="maketforfigma">
-			<a href="https://t.me/s/FigmaToHTML" target="_blank">
-				<img src="logo.png">
-			</a>
-			<div>
-				<p>
-					Данная верстка, была реализована пользователем в рамках обучающего телеграм канал <a href="https://t.me/s/FigmaToHTML/2" target="_blank">FIGMA | Макеты для верстки</a>
-				</p>
-				<p>
-					При помощи бота <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank">FIGMA | 💵 Верстай за деньги</a> пользователь получил оплату за верстку этого сайта и попал в рейтинги сайта
-					<a href="https://maketforfigma.ru" target="_blank">FIGMA — Макеты для верстки</a>
-				</p>
-			</div>
-		</div>
-		<!-- Конец -->
+    .maketforfigma p > a:hover {
+        /*color: #ffa001*/
+        /*color: #379683*/
+        color: #ffffff
+    }
 
-		<div class="main">
-			В данном блоке размещается верстка
-		</div>
+    .main {
+        flex: 1 0 auto;
+    }
+
+    html {
+        height: 100%;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+</style>
+<div class="maketforfigma">
+    <a href="https://t.me/s/FigmaToHTML" target="_blank">
+        <img src="logo.png">
+    </a>
+    <div>
+        <p>
+            Данная верстка, была реализована пользователем в рамках обучающего телеграм канал <a
+                href="https://t.me/s/FigmaToHTML/2" target="_blank">FIGMA | Макеты для верстки</a>
+        </p>
+        <p>
+            При помощи бота <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank">FIGMA | 💵 Верстай за
+            деньги</a> пользователь получил оплату за верстку этого сайта и попал в рейтинги сайта
+            <a href="https://maketforfigma.ru" target="_blank">FIGMA — Макеты для верстки</a>
+        </p>
+    </div>
+</div>
+<!-- Конец -->
+
+<div class="main">
+    <div class="header">
+        <div class="container">
+            <a href="#"><img src="static/images/logo.png" alt="Logo"></a>
+            <nav class="menu">
+                <ul class="menu-items">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#description">What We Do</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#comments">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="description" id="description">
+        <div class="container">
+            <div class="description__content">
+                <h1 class="description__title">A Digital Product Agency</h1>
+                <div class="description__text">Leading digital agency with solid design and development expertise. We
+                    build readymade websites,
+                    mobile applications, and elaborate online business services.
+                </div>
+                <div class="btn-wrapper">
+                    <button class="btn">Contact Now</button>
+                    <div class="description_dots">
+                        <img src="static/images/dot_ornament.png" alt="dots">
+                    </div>
+                </div>
+            </div>
+            <div class="description__image">
+                <img class="description__ellipse" src="static/images/description_ellipse.png" alt="ellipse">
+                <img class="description__img" src="static/images/description_image.png" alt="description_image">
+                <img class="description__rectangle" src="static/images/description_rectangle.png"
+                     alt="description_rectangle">
+            </div>
+        </div>
+    </div>
+    <div class="clients">
+        <div class="container">
+            <div class="clients__title">Our Client</div>
+            <div class="clients__content">
+                <div class="clients__content-text">
+                    Several selected clients, who already believe in our service.
+                </div>
+                <div class="clients__content-items">
+                    <img src="static/images/google_logo.png" alt="google">
+                    <img src="static/images/airbnb_logo.png" alt="airbnb">
+                    <img src="static/images/uber_eats_logo.png" alt="uber">
+                    <img src="static/images/amazon_logo.png" alt="amazon">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="services" id="services">
+        <div class="container">
+            <div class="services__description">
+                <div class="services__title">
+                    How can we help your Business ?
+                </div>
+                <div class="services__text">
+                    We build readymade websites, mobile applications, and elaborate online business services.
+                </div>
+                <img class="service__rectangle" src="static/images/service_rectangle.png" alt="service_rectangle">
+                <img class="service__dots" src="static/images/dots_service.png" alt="dots">
+            </div>
+            <div class="services_items">
+                <div class="service__item">
+                    <div class="service__item-image service__item-image-blue">
+                        <img src="static/images/box-search.png" alt="planning">
+                    </div>
+                    <div class="service__item-title ">
+                        Business Idea Planning
+                    </div>
+                    <div class="service__item-text">
+                        We present you a proposal and discuss niffty-gritty like
+                    </div>
+                </div>
+                <div class="service__item">
+                    <div class="service__item-image service__item-image-yellow">
+                        <img src="static/images/empty-wallet.png" alt="wallet">
+                    </div>
+                    <div class="service__item-title">
+                        Financial Planning System
+                    </div>
+                    <div class="service__item-text">
+                        Protocols apart from aengage models, pricing billing
+                    </div>
+                </div>
+                <div class="service__item">
+                    <div class="service__item-image service__item-image-pink">
+                        <img src="static/images/code.png" alt="code">
+                    </div>
+                    <div class="service__item-title">
+                        Development Website and App
+                    </div>
+                    <div class="service__item-text">
+                        Communication protocols apart from engagement models
+                    </div>
+                </div>
+                <div class="service__item">
+                    <div class="service__item-image service__item-image-green">
+                        <img src="static/images/chart-square.png" alt="chart">
+                    </div>
+                    <div class="service__item-title">
+                        Market Analysis Project
+                    </div>
+                    <div class="service__item-text">
+                        Protocols apart from aengage models, pricing billing
+                    </div>
+                </div>
+                <div class="service_circle">
+                    <img src="static/images/ellipse_service.png" alt="ellipse">
+                </div>
+                <div class="service__item-rectangle">
+                    <img src="static/images/rectangle_service.png" alt="rectangle">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="video" id="project">
+        <div class="container">
+            <div class="video__content">
+                <img src="static/images/video.png" alt="video">
+                <button class="btn btn__video">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#FFFFFF"
+                         height="30px" width="30px" version="1.1" id="Capa_1" viewBox="0 0 210 210"
+                         xml:space="preserve">
+<path d="M179.07,105L30.93,210V0L179.07,105z"/>
+</svg>
+                </button>
+                <div class="video__circle">
+                    <img src="static/images/ellipse_video.png" alt="ellipse">
+                </div>
+            </div>
+
+            <div class="video_description">
+                <div class="video__title">
+                    Great Digital Product Agency since 2016
+                </div>
+                <div class="video__text">
+                    Our Business Plan is a written document describing a company's core business activites, Objectives,
+                    and how it plans to achieve its goals. Our goal is to provide our client high quality Product with
+                    modern idea accordingly their budgets and according thir reuirements.
+                </div>
+                <div class="video__rectangle">
+                    <img src="static/images/rectangle_video.png" alt="rectangle">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="comments" id="comments">
+        <div class="container">
+            <div class="comments__title">What our happy client say</div>
+            <div class="comments__text">Several selected clients, who already believe in our service.</div>
+            <div class="slider">
+                <div>
+                    <div class="comment-item">
+                        <div class="comment__item-image">
+                            <img class="comment__item-img" src="static/images/photo.png" alt="photo">
+                            <img class="slider__ellipse" src="static/images/slider__circle.png" alt="circle">
+
+
+                        </div>
+                        <div class="comment__item-info">
+                            <div class="comment__item-name">Matthew Paul</div>
+                            <div class="comment__item-description">Perfect, very good job! Thank you for the amazing
+                                design and work.
+                                Really impressed with the high quality and quick turnaround time. Highly recommend.
+                            </div>
+                        </div>
+                        <div class="gallery">
+                            <img class="gallery_img" src="static/images/gallery.png" alt="gallery">
+                            <div class="gallery_ellipse">
+                                <img src="static/images/slider_ellipsse.png" alt="ellipse">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+    <div class="newsletter">
+        <div class="container">
+            <div class="newsletter__wrapper">
+                <div class="newsletter__dots">
+                    <img src="static/images/dots_newsletter.png" alt="dots">
+                </div>
+                <div class="newsletter__rectangle">
+                    <img src="static/images/newsletter_rectangle.png" alt="rectangle">
+                </div>
+                <div class="newsletter__info">
+                    <div class="newsletter__title">
+                        Subscribe Newsletter
+                    </div>
+                    <div class="newsletter__text">
+                        I will update good news and promotion service not spam
+                    </div>
+                </div>
+                <div class="newsletter__figure">
+                    <img src="static/images/newsletter_blue.png" alt="figure">
+                    <div class="wrapper__email">
+                        <input type="text" class="input__email" placeholder="Enter your email address..">
+                        <button class="btn btn__email">Contact Now</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about__actions" id="contact">
+        <div class="container">
+            <div class="about">
+                <div class="about__description">
+                    <div class="logo">
+                        <img src="static/images/logo.png" alt="logo">
+                    </div>
+                    <div class="description__text">
+                        Leading digital agency with solid design and development expertise. We build readymade websites,
+                        mobile applications, and elaborate online business services.
+                    </div>
+                </div>
+                <div class="about__item about__services">
+                    <div class="about__title about__services_title">
+                        What We Do
+                    </div>
+                    <nav class="about__menu menu__services">
+                        <ul>
+                            <li><a href="#">Web Design</a></li>
+                            <li><a href="#">App Design</a></li>
+                            <li><a href="#">Social Media Manage</a></li>
+                            <li><a href="#">Market Analysis Project</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="about__item about__company">
+                    <div class="about__title about__company_title">
+                        Company
+                    </div>
+                    <nav class="about__menu menu__services">
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Career</a></li>
+                            <li><a href="#">Become Investor</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="about__item support">
+                    <div class="about__title support_title">
+                        Support
+                    </div>
+                    <nav class="about__menu menu__services">
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Policy</a></li>
+                            <li><a href="#">Business</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="about__item contact">
+                    <div class="about__title contact_title">
+                        Support
+                    </div>
+                    <nav class="about__menu menu__services">
+                        <ul>
+                            <li><a href="#">WhatsApp</a></li>
+                            <li><a href="#">Support 24</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+            </div>
+         <div class="socials">
+             <a href="#"><img src="static/images/facebook.png" alt="facebook"></a>
+             <a href="#"><img src="static/images/twitter.png" alt="twitter"></a>
+             <a href=""><img src="static/images/linkedin.png" alt="linkedin"></a>
+         </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <span>Copyright © 2022 Avi Yansah</span>
+        </div>
+    </div>
+</div>
+<script src="scripts/jquery-3.6.3.min.js"></script>
+<script src="scripts/slick.min.js"></script>
+<script src="scripts/script.js"></script>
 </body>
 </html>
