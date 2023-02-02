@@ -608,6 +608,7 @@ body {
 
 .about .description__text {
     max-width: 270px;
+    font-size: 14px;
 }
 
 .about__title {
@@ -630,6 +631,7 @@ body {
     text-decoration: none;
     color: #000000;
     line-height: 200%;
+    font-size: 14px;
 }
 
 .socials img {
